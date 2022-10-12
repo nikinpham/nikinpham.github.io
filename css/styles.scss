@@ -7,21 +7,62 @@ body {
   background: $bw-clear !important;
 }
 
-#terms-of-use {
-  h1 {
-    @extend .head__700;
-    @extend .text-sea__fairy;
+.progress {
+  height: 10px !important;
+  margin-top: 7px;
+  .progress-bar {
+    background: $primary !important;
   }
-  h2 {
-    @extend .head__600;
-    @extend .text-sea__fairy;
+}
+
+#left-side {
+  background: $sea-dark;
+  color: $bw-clear;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  .avatar {
+    width: 256px;
+    height: 256px;
+    border-radius: 50%;
+    padding: 1.2rem;
+    border: 3px solid $primary;
+    margin: auto;
   }
-  h3 {
-    @extend .head__500;
-    @extend .text-sea__fairy;
+
+  .icon-group {
+    display: flex;
+    align-items: flex-start;
+    i {
+      color: $primary;
+      margin-right: 1rem;
+      top: 4px;
+      position: relative;
+    }
   }
-  p {
-    @extend .paragraph__16;
-    @extend .text-justify;
+  .skill {
+    display: flex;
+    justify-content: space-between;
+  }
+  .progress {
+    width: 100px;
+  }
+}
+
+#right-side {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  .progress {
+    width: 100%;
+    height: 6px !important;
+    margin-bottom: 6px !important;
+    .progress-bar {
+      width: 100%;
+    }
+  }
+  .label {
+    white-space: nowrap;
+    padding-right: 3rem;
   }
 }

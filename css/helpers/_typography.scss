@@ -37,7 +37,7 @@
   }
 }
 
-.longhead {
+.long-head {
   &__700 {
     font-size: 30px;
     line-height: 45px;
@@ -121,18 +121,22 @@
   &__16 {
     font-size: 16px;
     line-height: 20px;
+    text-decoration: none;
   }
   &__14 {
     font-size: 14px;
     line-height: 16px;
+    text-decoration: none;
   }
   &__12 {
     font-size: 12px;
     line-height: 16px;
+    text-decoration: none;
   }
   &__10 {
     font-size: 10px;
     line-height: 14px;
+    text-decoration: none;
   }
 }
 

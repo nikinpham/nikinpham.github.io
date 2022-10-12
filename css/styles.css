@@ -55,7 +55,7 @@
 .text-sea__light {
   color: #414f5e !important;
 }
-.text-sea__fairy, #terms-of-use h3, #terms-of-use h2, #terms-of-use h1 {
+.text-sea__fairy {
   color: #707b86 !important;
 }
 .text-bw__deep {
@@ -74,17 +74,21 @@
   color: #e7e7e7 !important;
 }
 
-.head__700, #terms-of-use h1 {
+.primary {
+  color: #38b6ff !important;
+}
+
+.head__700 {
   font-size: 30px;
   line-height: 40px;
   font-weight: bold;
 }
-.head__600, #terms-of-use h2 {
+.head__600 {
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
 }
-.head__500, #terms-of-use h3 {
+.head__500 {
   font-size: 20px;
   line-height: 28px;
   font-weight: bold;
@@ -110,37 +114,37 @@
   font-weight: bold;
 }
 
-.longhead__700 {
+.long-head__700 {
   font-size: 30px;
   line-height: 45px;
   font-weight: bold;
 }
-.longhead__600 {
+.long-head__600 {
   font-size: 24px;
   line-height: 32px;
   font-weight: bold;
 }
-.longhead__500 {
+.long-head__500 {
   font-size: 20px;
   line-height: 30px;
   font-weight: bold;
 }
-.longhead__400 {
+.long-head__400 {
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
 }
-.longhead__300 {
+.long-head__300 {
   font-size: 14px;
   line-height: 21px;
   font-weight: bold;
 }
-.longhead__200 {
+.long-head__200 {
   font-size: 12px;
   line-height: 18px;
   font-weight: bold;
 }
-.longhead__100 {
+.long-head__100 {
   font-size: 10px;
   line-height: 14px;
   font-weight: bold;
@@ -150,7 +154,7 @@
   font-size: 20px;
   line-height: 34px;
 }
-.paragraph__16, #terms-of-use p {
+.paragraph__16 {
   font-size: 16px;
   line-height: 24px;
 }
@@ -187,30 +191,93 @@
 .link__16 {
   font-size: 16px;
   line-height: 20px;
+  text-decoration: none;
 }
 .link__14 {
   font-size: 14px;
   line-height: 16px;
+  text-decoration: none;
 }
 .link__12 {
   font-size: 12px;
   line-height: 16px;
+  text-decoration: none;
 }
 .link__10 {
   font-size: 10px;
   line-height: 14px;
+  text-decoration: none;
 }
 
 .text-bold {
   font-weight: bold;
 }
-.text-justify, #terms-of-use p {
+.text-justify {
   text-align: justify;
 }
 
 body {
   font-family: "Noto Sans", sans-serif !important;
   background: #ffffff !important;
+}
+
+.progress {
+  height: 10px !important;
+  margin-top: 7px;
+}
+.progress .progress-bar {
+  background: #38b6ff !important;
+}
+
+#left-side {
+  background: #0e1c2b;
+  color: #ffffff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+#left-side .avatar {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  padding: 1.2rem;
+  border: 3px solid #38b6ff;
+  margin: auto;
+}
+#left-side .icon-group {
+  display: flex;
+  align-items: flex-start;
+}
+#left-side .icon-group i {
+  color: #38b6ff;
+  margin-right: 1rem;
+  top: 4px;
+  position: relative;
+}
+#left-side .skill {
+  display: flex;
+  justify-content: space-between;
+}
+#left-side .progress {
+  width: 100px;
+}
+
+#right-side {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+#right-side .progress {
+  width: 100%;
+  height: 6px !important;
+  margin-bottom: 6px !important;
+}
+#right-side .progress .progress-bar {
+  width: 100%;
+}
+#right-side .label {
+  white-space: nowrap;
+  padding-right: 3rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
