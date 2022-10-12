@@ -1,0 +1,216 @@
+.text-green__deep {
+  color: #073e45 !important;
+}
+.text-green__dark {
+  color: #09535c !important;
+}
+.text-green__normal {
+  color: #0b6873 !important;
+}
+.text-green__light {
+  color: #3c868f !important;
+}
+.text-green__fairy {
+  color: #6da4ab !important;
+}
+.text-orange__deep {
+  color: #99442a !important;
+}
+.text-orange__dark {
+  color: #cc5a38 !important;
+}
+.text-orange__normal {
+  color: #ff7146 !important;
+}
+.text-orange__light {
+  color: #ff8d6b !important;
+}
+.text-orange__fairy {
+  color: #ffaa90 !important;
+}
+.text-smoke__deep {
+  color: #888381 !important;
+}
+.text-smoke__dark {
+  color: #b5afac !important;
+}
+.text-smoke__normal {
+  color: #e2dbd7 !important;
+}
+.text-smoke__light {
+  color: #e8e2df !important;
+}
+.text-smoke__fairy {
+  color: #eee9e7 !important;
+}
+.text-sea__deep {
+  color: #0a1520 !important;
+}
+.text-sea__dark {
+  color: #0e1c2b !important;
+}
+.text-sea__normal {
+  color: #112336 !important;
+}
+.text-sea__light {
+  color: #414f5e !important;
+}
+.text-sea__fairy, #terms-of-use h3, #terms-of-use h2, #terms-of-use h1 {
+  color: #707b86 !important;
+}
+.text-bw__deep {
+  color: #1b1b1b !important;
+}
+.text-bw__dark {
+  color: #505050 !important;
+}
+.text-bw__normal {
+  color: #868686 !important;
+}
+.text-bw__light {
+  color: #b6b6b6 !important;
+}
+.text-bw__fairy {
+  color: #e7e7e7 !important;
+}
+
+.head__700, #terms-of-use h1 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: bold;
+}
+.head__600, #terms-of-use h2 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+}
+.head__500, #terms-of-use h3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+}
+.head__400 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.head__300 {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+}
+.head__200 {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: bold;
+}
+.head__100 {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: bold;
+}
+
+.longhead__700 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: bold;
+}
+.longhead__600 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+}
+.longhead__500 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+}
+.longhead__400 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+.longhead__300 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+.longhead__200 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: bold;
+}
+.longhead__100 {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: bold;
+}
+
+.paragraph__20 {
+  font-size: 20px;
+  line-height: 34px;
+}
+.paragraph__16, #terms-of-use p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.paragraph__14 {
+  font-size: 14px;
+  line-height: 24px;
+}
+.paragraph__12 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.baseline__20 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.baseline__16 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.baseline__14 {
+  font-size: 14px;
+  line-height: 18px;
+}
+.baseline__12 {
+  font-size: 12px;
+  line-height: 16px;
+}
+.baseline__10 {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.link__16 {
+  font-size: 16px;
+  line-height: 20px;
+}
+.link__14 {
+  font-size: 14px;
+  line-height: 16px;
+}
+.link__12 {
+  font-size: 12px;
+  line-height: 16px;
+}
+.link__10 {
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+.text-justify, #terms-of-use p {
+  text-align: justify;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif !important;
+  background: #ffffff !important;
+}
+
+/*# sourceMappingURL=styles.css.map */

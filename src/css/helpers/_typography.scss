@@ -1,0 +1,146 @@
+@import "_variables";
+.head {
+  &__700 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+  }
+  &__600 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+  &__500 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+  }
+  &__400 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+  }
+  &__300 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  &__200 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+  }
+  &__100 {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: bold;
+  }
+}
+
+.longhead {
+  &__700 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+  }
+  &__600 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+  }
+  &__500 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+  &__400 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  &__300 {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+  }
+  &__200 {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: bold;
+  }
+  &__100 {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: bold;
+  }
+}
+
+.paragraph {
+  &__20 {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  &__16 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__14 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  &__12 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.baseline {
+  &__20 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  &__16 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  &__14 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  &__12 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  &__10 {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+
+.link {
+  &__16 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  &__14 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  &__12 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  &__10 {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+
+.text {
+  &-bold {
+    font-weight: bold;
+  }
+  &-justify {
+    text-align: justify;
+  }
+}

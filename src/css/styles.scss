@@ -1,0 +1,27 @@
+@import "helpers/_colors";
+@import "helpers/_typography";
+@import "helpers/_variables";
+
+body {
+  font-family: "Noto Sans", sans-serif !important;
+  background: $bw-clear !important;
+}
+
+#terms-of-use {
+  h1 {
+    @extend .head__700;
+    @extend .text-sea__fairy;
+  }
+  h2 {
+    @extend .head__600;
+    @extend .text-sea__fairy;
+  }
+  h3 {
+    @extend .head__500;
+    @extend .text-sea__fairy;
+  }
+  p {
+    @extend .paragraph__16;
+    @extend .text-justify;
+  }
+}

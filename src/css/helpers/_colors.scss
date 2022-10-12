@@ -1,0 +1,88 @@
+@import "_variables";
+.text {
+  &-green {
+    &__deep {
+      color: $green-deep !important;
+    }
+    &__dark {
+      color: $green-dark !important;
+    }
+    &__normal {
+      color: $green-normal !important;
+    }
+    &__light {
+      color: $green-light !important;
+    }
+    &__fairy {
+      color: $green-fairy !important;
+    }
+  }
+  &-orange {
+    &__deep {
+      color: $orange-deep !important;
+    }
+    &__dark {
+      color: $orange-dark !important;
+    }
+    &__normal {
+      color: $orange-normal !important;
+    }
+    &__light {
+      color: $orange-light !important;
+    }
+    &__fairy {
+      color: $orange-fairy !important;
+    }
+  }
+  &-smoke {
+    &__deep {
+      color: $smoke-deep !important;
+    }
+    &__dark {
+      color: $smoke-dark !important;
+    }
+    &__normal {
+      color: $smoke-normal !important;
+    }
+    &__light {
+      color: $smoke-light !important;
+    }
+    &__fairy {
+      color: $smoke-fairy !important;
+    }
+  }
+  &-sea {
+    &__deep {
+      color: $sea-deep !important;
+    }
+    &__dark {
+      color: $sea-dark !important;
+    }
+    &__normal {
+      color: $sea-normal !important;
+    }
+    &__light {
+      color: $sea-light !important;
+    }
+    &__fairy {
+      color: $sea-fairy !important;
+    }
+  }
+  &-bw {
+    &__deep {
+      color: $bw-deep !important;
+    }
+    &__dark {
+      color: $bw-dark !important;
+    }
+    &__normal {
+      color: $bw-normal !important;
+    }
+    &__light {
+      color: $bw-light !important;
+    }
+    &__fairy {
+      color: $bw-fairy !important;
+    }
+  }
+}
